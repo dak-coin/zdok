@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zdok_bg.qm</file>
+        <file alias="de">locale/zdok_de.qm</file>
+        <file alias="en">locale/zdok_en.qm</file>
+        <file alias="es">locale/zdok_es.qm</file>
+        <file alias="fi">locale/zdok_fi.qm</file>
+        <file alias="fr">locale/zdok_fr.qm</file>
+        <file alias="it">locale/zdok_it.qm</file>
+        <file alias="ja">locale/zdok_ja.qm</file>
+        <file alias="nl">locale/zdok_nl.qm</file>
+        <file alias="pl">locale/zdok_pl.qm</file>
+        <file alias="pt">locale/zdok_pt.qm</file>
+        <file alias="ru">locale/zdok_ru.qm</file>
+        <file alias="sk">locale/zdok_sk.qm</file>
+        <file alias="sv">locale/zdok_sv.qm</file>
+        <file alias="vi">locale/zdok_vi.qm</file>
+        <file alias="zh_CN">locale/zdok_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zdok_zh_TW.qm</file>
+    </qresource>
+</RCC>

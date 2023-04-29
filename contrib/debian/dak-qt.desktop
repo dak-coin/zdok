@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=zdok Core
+Comment=zdok P2P Cryptocurrency
+Comment[de]=Verbinde mit dem zdok peer-to-peer Netzwerk
+Comment[fr]=zdok, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=zdok, eşten eşe kriptografik sanal para birimi
+Exec=zdok-qt %u
+Terminal=false
+Type=Application
+Icon=zdok128
+MimeType=x-scheme-handler/zdok;
+Categories=Office;Finance;

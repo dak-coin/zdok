@@ -1,0 +1,33 @@
+# /etc/conf.d/zdokd: config file for /etc/init.d/zdokd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/zdokcore/zdok.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/zdokd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zdokd.pid"
+
+# Where to write zdokd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zdokd"
+
+# User and group to own zdokd process
+#BITCOIND_USER="zdokcore"
+#BITCOIND_GROUP="zdokcore"
+
+# Path to zdokd executable
+#BITCOIND_BIN="/usr/bin/zdokd"
+
+# Nice value to run zdokd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

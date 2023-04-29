@@ -1,0 +1,6 @@
+usr/local/bin/zdok-qt usr/bin
+share/pixmaps/zdok32.xpm usr/share/pixmaps
+share/pixmaps/zdok16.xpm usr/share/pixmaps
+share/pixmaps/zdok128.png usr/share/pixmaps
+debian/zdok-qt.desktop usr/share/applications
+debian/zdok-qt.protocol usr/share/kde4/services/

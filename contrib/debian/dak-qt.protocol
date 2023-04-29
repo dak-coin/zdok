@@ -1,0 +1,11 @@
+[Protocol]
+exec=zdok-qt '%u'
+protocol=zdok
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
